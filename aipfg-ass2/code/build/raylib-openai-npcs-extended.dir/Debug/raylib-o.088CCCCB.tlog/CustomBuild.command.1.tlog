@@ -1,0 +1,10 @@
+^C:\USERS\LORCAN\DOCUMENTS\AIASS2\AIPFG-ASS2\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code -BC:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build --check-stamp-file C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

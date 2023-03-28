@@ -1,0 +1,10 @@
+^C:\USERS\LORCAN\DOCUMENTS\AIASS2\AIPFG-ASS2\CODE\BUILD\CMAKEFILES\D5ABE7FAFACAD9186834AF25BEEDFC57\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code -BC:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/aipfg-ass2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

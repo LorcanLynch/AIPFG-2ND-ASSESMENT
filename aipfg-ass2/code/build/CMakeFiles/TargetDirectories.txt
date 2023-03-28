@@ -1,0 +1,3 @@
+C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/CMakeFiles/raylib-openai-npcs-extended.dir
+C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/CMakeFiles/ZERO_CHECK.dir

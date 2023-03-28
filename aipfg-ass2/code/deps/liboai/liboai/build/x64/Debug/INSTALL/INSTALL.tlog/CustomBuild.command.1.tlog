@@ -1,0 +1,10 @@
+^C:\DEV\PROJECTS\WINDOWS_BEAMER_SLIDES\MODULES\AIPFG\LECTURES\CHATBOTS\LAB\CODE\DEPS\LIBOAI\LIBOAI\BUILD\CMAKEFILES\0EA6F336858B061E1925188504FE03EE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
