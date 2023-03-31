@@ -379,9 +379,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\CurrentScene.cpp" />
+    <ClCompile Include="..\SceneManager.cpp" />
     <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\raylib-openai-npcs-extended.cpp" />
     <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.cpp" />
     <ClInclude Include="..\CurrentScene.hpp" />
+    <ClInclude Include="..\SceneManager.hpp" />
     <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.hpp" />
     <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.cpp" />
     <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.hpp" />

@@ -6,6 +6,7 @@
 #include "CurrentScene.hpp"
 #include "raylib-tileson.h"
 #include "raylib-cpp.hpp"
+#include "SceneManager.hpp"
 #include <string>     // std::string
 #include <vector>     // std::vector
 #include <numeric>    // std::iota
@@ -23,7 +24,7 @@
 
 aipfg::NPC make_reaper(aipfg::GameManager&, raylib::Texture&);
 aipfg::NPC make_green_knight(aipfg::GameManager&, raylib::Texture&);
-
+aipfg::scene makeScene(aipfg::CurrentMap,std::vector<sprite*>)
 
 
 int main(int argc, char *argv[])
