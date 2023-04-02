@@ -5,34 +5,39 @@
 #include "openai-helper.hpp"
 #include "raylib-cpp.hpp"
 #include "sprite.hpp"
-#include "CurrentScene.hpp"
+
+#include "Scene.hpp"
 namespace aipfg
 {
 
-class TextBox;
-class PC;
+	class TextBox;
+	class PC;
+
+	class GameManager
+	{
+	public:
+		GameManager(raylib::Window&);
+
+		void update();
+		void draw();
+		void OAIImage(std::string, std::string);
+		void DrawMap();
+		void ChangeScene(int);
+		void UnloadMap();
+		void SetScenes(std::vector<aipfg::scene>);
+		AudioManager am_;
+		TextBox* text_box_;
+		raylib::Window& window_;
+		openai_helper oai_help_;
+		PC* pc_; // the player character
+		raylib::Texture tex;
+		Sprite spr;
+		int sceneIndex;
+		int boo;
 
 
-class GameManager
-{
-public:
-  GameManager(raylib::Window&);
-
-  void update();
-  void draw();
-  void OAIImage(std::string);
-  void DrawMap();
-  void ChangeMap(const char*);
-  void UnloadMap();
-  AudioManager am_;
-  TextBox* text_box_;
-  raylib::Window& window_;
-  openai_helper oai_help_;
-  PC* pc_; // the player character
-  raylib::Texture tex;
-  Sprite spr;
-  CurrentMap gmMap_;
-};
+		std::vector<aipfg::scene> GameScenes;
+	};
 
 } // namespace aipfg
 

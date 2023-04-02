@@ -1,21 +1,28 @@
-﻿  CurrentScene.cpp
-  SceneManager.cpp
-  raylib-openai-npcs-extended.cpp
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\raylib-openai-npcs-extended.cpp(9,10): fatal  error C1083: Cannot open include file: 'SceneManager.hpp': No such file or directory
+﻿  Building Custom Rule C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/CMakeLists.txt
   audio-manager.cpp
   game-manager.cpp
   npc.cpp
   openai-helper.cpp
   pc.cpp
+  raylib-openai-npcs-extended.cpp
+  Scene.cpp
   text-box.cpp
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(30,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(30,33): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(32,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(33,65): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(126,77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(127,77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(161,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(162,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(180,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp(180,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+..\text-box.cpp(30,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+..\text-box.cpp(30,33): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+..\text-box.cpp(32,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(33,65): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(126,77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(127,77): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(161,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(162,68): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\text-box.cpp(180,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+..\text-box.cpp(180,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  TransitionPoint.cpp
   Generating Code...
+oai.lib(authorization.obj) : warning LNK4099: PDB 'oai.pdb' was not found with 'oai.lib(authorization.obj)' or at 'C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\oai.pdb'; linking object as if no debug info
+oai.lib(completions.obj) : warning LNK4099: PDB 'oai.pdb' was not found with 'oai.lib(completions.obj)' or at 'C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\oai.pdb'; linking object as if no debug info
+oai.lib(images.obj) : warning LNK4099: PDB 'oai.pdb' was not found with 'oai.lib(images.obj)' or at 'C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\oai.pdb'; linking object as if no debug info
+oai.lib(response.obj) : warning LNK4099: PDB 'oai.pdb' was not found with 'oai.lib(response.obj)' or at 'C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\oai.pdb'; linking object as if no debug info
+raylib-tileson.lib(raylib-tileson.obj) : warning LNK4099: PDB 'raylib-tileson.pdb' was not found with 'raylib-tileson.lib(raylib-tileson.obj)' or at 'C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\raylib-tileson.pdb'; linking object as if no debug info
+     Creating library C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/Debug/raylib-openai-npcs-extended.lib and object C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/build/Debug/raylib-openai-npcs-extended.exp
+  raylib-openai-npcs-extended.vcxproj -> C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\build\Debug\raylib-openai-npcs-extended.exe

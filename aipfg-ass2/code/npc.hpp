@@ -12,25 +12,27 @@
 namespace aipfg
 {
 
-class NPC : public Sprite
-{
-public:
-  NPC(GameManager&, Sprite&, const std::string&, const TextBoxParams&);
+	class NPC : public Sprite
+	{
+	public:
+		NPC(GameManager&, Sprite&, const std::string&, const TextBoxParams&, int);
 
-  void update();
-  void draw();
-  void text_box_wait();
+		void update();
+		void draw();
+		void text_box_wait();
+		int sceneIndex_;
+		std::string imgPath;
+	private:
 
-private:
+		bool colliding_{ false };
 
-  bool colliding_{ false };
+		GameManager& gm_;
 
-  GameManager& gm_;
-
-  const std::string name_;
-  TextBox text_box_;
-};
+		const std::string name_;
+		TextBox text_box_;
+	};
 
 } // namespace aipfg
 
 #endif // _NPC_HPP_
+

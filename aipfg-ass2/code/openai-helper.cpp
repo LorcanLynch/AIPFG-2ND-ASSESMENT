@@ -63,32 +63,32 @@ void openai_helper::submit(const std::string& prompt, std::string& response_str,
   }
 }
 
-void openai_helper::CreateImage(std::string Prompt)
+void openai_helper::CreateImage(std::string Prompt, std::string name)
 {
-    
-        using namespace liboai;
-        OpenAI oai;
-        std::string size = "256x256";
-        UINT8 n = 1;
-        if (oai.auth.SetKeyFile("../.env"))
-        {
-            try {
-                
-                Response response = oai.Image->create(
-                   Prompt,n,size
-                );
-                Network::Download(
-                    "CurrentImage.png", // add a string holding a png filename here
-                    response["data"][0]["url"].get<std::string>()
-                );
-            }
-            catch (std::exception& e) {
-                std::cout << e.what() << std::endl;
-            }
-        }
 
-      
-    
+    using namespace liboai;
+    //OpenAI oai;
+    std::string size = "256x256";
+    UINT8 n = 1;
+    //if (oai.auth.SetKeyFile("../.env"))
+    {
+        try {
+
+            Response response = (*oai_).Image->create(
+                Prompt, n, size
+            );
+            Network::Download(
+                name + ".png", // add a string holding a png filename here
+                response["data"][0]["url"].get<std::string>()
+            );
+        }
+        catch (std::exception& e) {
+            std::cout << e.what() << std::endl;
+        }
+    }
+
+
+
 }
 
 openai_helper::~openai_helper()

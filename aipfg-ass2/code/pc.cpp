@@ -42,7 +42,7 @@ void PC::update()
     }
     if (IsKeyDown(KEY_SPACE))
     {
-        gm_.ChangeMap("../resources/Untitled.json");
+        gm_.ChangeScene(1);
        
        
 

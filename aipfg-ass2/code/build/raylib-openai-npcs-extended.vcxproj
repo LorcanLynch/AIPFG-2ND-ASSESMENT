@@ -87,7 +87,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\raylib-cpp\include;C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\liboai\install;C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\raylib-tileson\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\raylib-cpp\include;C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\liboai\install;C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\raylib-tileson\install\include;C:\Users\Lorcan\Documents\AIAss2\AIPFG-2ND-ASSESMENT\aipfg-ass2\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Lorcan/Documents/AIAss2/aipfg-ass2/code/deps/vcpkg-export/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -378,24 +378,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\CurrentScene.cpp" />
-    <ClCompile Include="..\SceneManager.cpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\raylib-openai-npcs-extended.cpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.cpp" />
-    <ClInclude Include="..\CurrentScene.hpp" />
-    <ClInclude Include="..\SceneManager.hpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.hpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.cpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.hpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\npc.cpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\npc.hpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\openai-helper.cpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\openai-helper.hpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\pc.cpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\pc.hpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\sprite.hpp" />
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp" />
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.hpp" />
+    <ClCompile Include="..\audio-manager.cpp" />
+    <ClCompile Include="..\game-manager.cpp" />
+    <ClCompile Include="..\npc.cpp" />
+    <ClCompile Include="..\openai-helper.cpp" />
+    <ClCompile Include="..\pc.cpp" />
+    <ClCompile Include="..\raylib-openai-npcs-extended.cpp" />
+    <ClCompile Include="..\Scene.cpp" />
+    <ClCompile Include="..\text-box.cpp" />
+    <ClCompile Include="..\TransitionPoint.cpp" />
+    <ClInclude Include="..\audio-manager.hpp" />
+    <ClInclude Include="..\game-manager.hpp" />
+    <ClInclude Include="..\npc.hpp" />
+    <ClInclude Include="..\openai-helper.hpp" />
+    <ClInclude Include="..\pc.hpp" />
+    <ClInclude Include="..\Scene.hpp" />
+    <ClInclude Include="..\sprite.hpp" />
+    <ClInclude Include="..\text-box.hpp" />
+    <ClInclude Include="..\transitionPoint.hpp" />
     <Natvis Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\deps\vcpkg-export\installed\x64-windows\share\nlohmann_json\nlohmann_json.natvis">
     </Natvis>
   </ItemGroup>

@@ -7,25 +7,25 @@
 
 namespace liboai
 {
-  class OpenAI;
+    class OpenAI;
 }
 
 namespace aipfg
 {
 
-class openai_helper
-{
-public:
-  openai_helper();
-  ~openai_helper();
+    class openai_helper
+    {
+    public:
+        openai_helper();
+        ~openai_helper();
 
-  void submit(const std::string& prompt, std::string& response_str,
-              const std::optional<std::vector<std::string>>& stop = std::nullopt);
-  void CreateImage(std::string);
-  
-private:
-  liboai::OpenAI* oai_;
-};
+        void submit(const std::string& prompt, std::string& response_str,
+            const std::optional<std::vector<std::string>>& stop = std::nullopt);
+        void CreateImage(std::string, std::string);
+
+    private:
+        liboai::OpenAI* oai_;
+    };
 
 } // namespace aipfg
 

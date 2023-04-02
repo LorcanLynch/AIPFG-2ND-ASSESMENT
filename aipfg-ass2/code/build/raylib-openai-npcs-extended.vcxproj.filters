@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\raylib-openai-npcs-extended.cpp">
+    <ClCompile Include="..\Scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.cpp">
+    <ClCompile Include="..\TransitionPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.cpp">
+    <ClCompile Include="..\text-box.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\npc.cpp">
+    <ClCompile Include="..\raylib-openai-npcs-extended.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\openai-helper.cpp">
+    <ClCompile Include="..\pc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\pc.cpp">
+    <ClCompile Include="..\openai-helper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.cpp">
+    <ClCompile Include="..\npc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\CurrentScene.cpp">
+    <ClCompile Include="..\game-manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SceneManager.cpp">
+    <ClCompile Include="..\audio-manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\audio-manager.hpp">
+    <ClInclude Include="..\Scene.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\game-manager.hpp">
+    <ClInclude Include="..\transitionPoint.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\npc.hpp">
+    <ClInclude Include="..\text-box.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\openai-helper.hpp">
+    <ClInclude Include="..\sprite.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\pc.hpp">
+    <ClInclude Include="..\pc.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\sprite.hpp">
+    <ClInclude Include="..\openai-helper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Lorcan\Documents\AIAss2\aipfg-ass2\code\text-box.hpp">
+    <ClInclude Include="..\npc.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\CurrentScene.hpp">
+    <ClInclude Include="..\game-manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SceneManager.hpp">
+    <ClInclude Include="..\audio-manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
